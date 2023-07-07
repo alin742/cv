@@ -3,8 +3,9 @@
 PAPER=main.tex  # set the path to your TeX file here
 
 all:  ## Compile paper
-	latexmk --pdf --quiet $(PAPER)
+	latexmk --pdf --quiet $(PAPER) 
 	latexmk -c
+	mv ./main.pdf ./CV.pdf
 
 clean:  ## Clean output files
 	latexmk -C

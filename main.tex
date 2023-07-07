@@ -1,0 +1,155 @@
+\documentclass[12pt, a4paper]{moderncv}
+\usepackage[english]{babel}   %Paket für deutsche Spracheinstellungen.
+\usepackage[utf8]{inputenc}  %Das Dokument soll UTF-8-Format nutzen (wegen deutschen Umlauten).
+\usepackage[left=2cm, right=1.0cm, top=1.5cm, bottom=1cm]{geometry}  %Seitenrand anpassen.
+ %\usepackage{fontawesome}  %Paket für schönere Symbole bei den persönlichen Daten.
+\usepackage{setspace}
+\usepackage{comment}
+\moderncvtheme[black]{classic}
+ %\moderncvicons{awesome}
+ 
+ \newcommand\x{0.2} %Space between CV input eg MSc and BENg
+ \newcommand\y{0.1}
+ \newcommand*\orcidsocialsymbol{{\aiOrcid}~}
+
+ 
+ 
+ 
+ %Die persönlichen Daten:
+\name{Ali}{Elnwegy}
+
+\title{Resumé}
+
+\address{Bissingstrasse 26}{21075 Hamburg, Germany}
+\phone[mobile]{0049 176\,34512379}
+%\phone[fixed]{01234\,123456}
+%\phone[fax]{01234\,012345}
+\email{alinwegy@gmail.com}
+%\homepage{cv.nwegy.xyz}
+%\social[twitter][www.twitter.com]{Twitter-Name}
+\social[linkedin][www.linkedin.com/in/ali-elnwegy]{in/ali-elnwegy}
+\social[orcid][orcid.org/0009-0008-6633-5176]{0009-0008-6633-5176}
+\social[github][www.github.com/alin742]{alin742}
+\extrainfo{Birthdate: 23.07.1996\\Birthplace: Giza, Egypt}
+\usepackage[document]{ragged2e}
+
+\photo[3.6cm]{Photo/cv_photo_sq.jpg}  %Die Dateiendung wird weggelassen.
+%\quote{"Hier kann mein Lebensmotto oder ein Zitat stehen."}
+ 
+ 
+\begin{document}
+  \makecvtitle
+  
+  \section{Summary}
+ {\justifying Mechatronics Engineer with a broad skill set, highly motivated and results-driven. Proficient in a wide range of programming languages, including C, C++, Python, Rust, Java, JavaScript, and MATLAB. Possesses a strong academic background in Mechanics, Electric Circuits, Numerical Methods, Finite Element Methods, Hydraulics, Thermodynamics, Robotics, and Vibration. Specializes in Control theory, Optimal and Robust Control, and Multi-Agent Systems Control. Skilled in implementing various control schemes, including PID, LQG, MPC, $H_2$, and $H_\infty$. Demonstrates a keen interest in conducting research and advancing knowledge in the field. Excellent analytical and problem-solving skills with a focus on academic excellence. Committed to continuous learning and staying at the forefront of new developments in the field. Strong communication and interpersonal abilities with a collaborative mindset.}
+ 
+ \vspace{\y cm}
+ 
+ 
+  \section{Education}
+  \cventry{2019--now}{M.Sc. in Mechatronics Engineering}{\hspace{\textwidth}Technische Universität Hamburg-Harburg}{Hamburg}{Germany}{}
+  \cvline{\textit{Master Thesis:}}{Multi-Layered Control of a Telemanipulation platform with Vibrotactile Feedback}
+  \cvline{\textit{Project Work:}}{Empirical Studies of Multi-Agent Formation Control over Stochastic Communication Networks}
+  \vspace{\x cm}
+  \cventry{2014--2019}{B.Sc. in Mechatronics Engineering}{\hspace{\textwidth}German University in Cairo}{Cairo}{Egypt}{}
+  \cvline{\textit{Bachelor Thesis:}}{Model Predictive Control of a Tower Crane}
+   \vspace{\y cm}
+  
+  \section{Publications}
+  \cvline{\textit{Conference WIP:}}{Multi-Layered Control of a Bilateral Haptic Telemanipulation Setup using Collaborative UR10e Robots\hspace{\textwidth} World Haptics Conference 2023}
+  
+  \section{Experience}
+  \cventry{July 2022--Now}{Pentax Medical Europe GmbH.}{Hamburg, Germany}{Working Student}{}{}
+  \cventry{August 2020--May 2021}{Home Power Solutions GmbH.}{Berlin, Germany}{Working Student}{\hspace{\textwidth} Adapting a Model Predictive Controller for an Energy Storage System to Weather Conditions}{}
+  \cventry{May--August 2020}{Home Power Solutions GmbH.}{Berlin, Germany}{Summer internship}{\hspace{\textwidth} Developing an IOT Solution for measuring the Room Air Quality}{}
+
+  
+ \begin{comment}
+  
+ Developing a control strategy for ventilation systems based on indoor air quality. \\
+ Building a test station for measuring the lifetime of a filter under working conditions. \\
+ Design of a cyber-physical system for controlling a drawbridge using \textsc{Simulink} statecharts. \\
+ Design and hardware implementation of a location tracker system using multi beaconning with \textsc{Arduino Uno}. \\
+ Implementing and simulating an autonomous system using \textsc{Gazebo} and \textsc{ROS}. \\
+ Implementing a vehicle counting algorithm using the image processing library in \textsc{Matlab}. \\
+ Design and simulation of an analogue controlled cleaning robot with pneumatic actuators. \\
+ Devolpment of backend and frontend for a game in \textsc{Java} coding language.
+
+  \cventry{August--February 2022}{Statista GmbH}{Hamburg, Germany}{Werkstudent}{\newline Organization of lead information, selection/qualification of potential leads and distribution to sales representatives on Salesforce. Participation in optimization of the Lead qualification process and KPI alignment for reporting}{}
+  %\cvlistdoubleitem{Parametric design on AUTODESK Inventor}{Creation of technical drawings for manufacturing by subcontractors}
+
+\cventry{February 2022--now}{Fraunhofer IAPT}{Hamburg, Germany}{Master's Thesis/Work Student}{\newline 
+Development of a python simulation model for laser-based directed energy deposition process to optimize process parameter selection and avoid defects.}
+{}
+  %\cvlistdoubleitem{5 axis CAM with Siemens NX}{}
+  \cvlistdoubleitem{Slicing and iteration of process parameters with Siemens NX}{Setting-up Robotic Cell, 6 axis robot and 1500W Nd: YAG laser.}
+  \cvlistdoubleitem{Printing titanium/aluminium test components}{Post process printing components, 3D scans components with CMM}
+
+  
+  %\newpage
+ %\vspace{0.1cm}
+  
+  \cventry{April--June 2017}{Wrexham Glyndwr University: Airbus Advanced Composites Training and Development Center}{Broughton, England}{Mandatory Placement}{Design and prototyping of various PTFE vacuum control valves}{}
+  \cvlistdoubleitem{Parametric design using CATIA V5}{Creation of technical drawings for self-machining in the workshop}
+  \cvlistdoubleitem{Machining of valves on lathe and milling machines}{Curing carbon fibre sample with microwaves and autoclave}
+  %\cvlistdoubleitem{Prepare different types of carbon fibre mechanical samples}{Test mechanical properties of carbon fibre sample}
+  %\cventry{August--September 2016}{}{}{}{}{}
+  
+
+ \vspace{\y cm}
+\end{comment}
+
+  
+  \section{Skills}
+
+  \subsection{Programming Languages}
+  \cvcomputer{Python}{Excellent Knowledge}{Matlab}{Excellent Knowledge}
+  \cvcomputer{Rust}{Excellent Knowledge}{C}{Excellent Knowledge}
+  \cvcomputer{Typescript}{Good Knowledge}{Javascript}{Good Knowledge}
+  \cvcomputer{C++}{Good Knowledge}{C\#}{Good Knowledge}
+  \cvcomputer{Java}{Good Knowledge}{C-Lisp}{Basic Knowledge}
+  \cvcomputer{Haskell}{Basic Knowledge}{OCaml}{Basic Knowledge}
+  \subsection{Other Computer Skills}
+  \cvline{}{ROS, ROS2, \LaTeX, Linux, Arduino, ESP32, Raspberry Pi, SolidWorks, Adobe AutoCAD, Bash, PowerShell, Vim, Microsoft Active Directory, MySQL, Networking, Object-Oriented Programming, Functional Programming}
+  \cvline{Microsoft Office}{Word, Excel, PowerPoint, Visio, Access, Project}
+ 
+  %\vspace{\y cm}
+ 
+ 
+  
+  %\cvlistdoubleitem{Management of group project and Teamwork: Final project of DUT and BEng were group project spanning on several months}{Cross-cultural Management}
+  %\cvlistitem{Management of group project and Teamwork: Final project of DUT and BEng were group project spanning on several months}{}
+  %\cvlistdoubleitem{Creative problem Solving}{Adaptability}
+  %\cvlistdoubleitem{Project presentation}{Continuous Learner}
+ %\cvcomputer{Management of group project and Teamwork}{\justifying D.U.T. and B.Eng. final projects were group projects that scored over 70\%}{Continuous Learner}{\justifying Moved to study in Germany with little to no knowledge of German to develop further language skills}
+ %\cvcomputer{Creative problem Solving}{\justifying Used cost-efficient prototyping methods with off the shelf components for .Eng. honours project}{Cross-cultural Management and Adaptability}{Studied and worked in 3 different countries} 
+  
+   \vspace{\y cm}
+  
+ 
+  \section{Languages}
+  \cvlanguage{Arabic, English}{Mother tongue, Fluent}{}
+  %\cvlanguage{English}{Proficient \hspace{2 cm} C2}{}
+  \cvlanguage{German}{Upper-Intermediate \hspace{1.45 cm}}{}
+ % \cvlanguage{Spanish}{Beginner \hspace{2.1 cm} A2}{}
+  \cvlanguage{French}{Beginner \hspace{2.1 cm}}{}
+
+
+ \vspace{\y cm}
+
+  
+  \section{Interests}
+  %\cvlistdoubleitem{Bouldering}{DIY: Own a 3D printer and currently uses it to manufacture a CNC-router (MPCNC). Sewing bags and toiletry items.}
+  %\cvlistdoubleitem{}{}
+  \cvline{Programming}{Advent of Code 2022 in C
+  \hspace{\textwidth} Dynamic-Models Library in Pure Rust (no BLIS/BLAS or LAPACK)}
+  
+  \vfill  %Platz bis Seitenende auffüllen.
+  
+  
+  
+  %\includegraphics[width=2cm]{Fads.jpg}
+
+  %Sami Fadil\\
+  %Hamburg, \today
+\end{document}

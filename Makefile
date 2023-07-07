@@ -1,7 +1,6 @@
 # LaTeX Makefile v0.33 -- LaTeX only
 
 PAPER=main.tex  # set the path to your TeX file here
-SHELL=/bin/zsh   # for the while loop below
 
 all:  ## Compile paper
 	latexmk --pdf --quiet $(PAPER)
